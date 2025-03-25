@@ -17,7 +17,7 @@
            }
            else
            {
-             cout << "/nArray yang anda masukkan maksimal 20 elemen./n"; // Menampilkan pesan jika data lebih dari 20
+             cout << "/nArray yang anda masukkan maksimal 20 elemen./n"; 
            }
        }
 
@@ -53,3 +53,19 @@
    }
 
    void display()
+   {
+      cout << endl;
+      cout << "================================" << endl;
+      cout << " Total pass = " << n - 1 << endl;
+      cout << "================================" << endl;
+      cout << "Element Array yang telah tersusun" << endl;
+      cout << "================================" << endl;
+
+      for (int j = 0; j < n; j++)
+      {
+        cout << arr[j] << " ";
+      }
+      cout << endl;
+   }
+
+   
